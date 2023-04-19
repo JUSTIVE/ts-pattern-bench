@@ -4,13 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ifElse": "ts-node ifElse.ts",
+    "ternary": "ts-node ternary.ts",
+    "match": "ts-node match.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@js-temporal/polyfill": "^0.4.3",
     "ts-node": "^10.9.1",
     "ts-pattern": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "fs": "0.0.1-security"
   }
 }
